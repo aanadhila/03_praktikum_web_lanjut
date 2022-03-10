@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::get('/home', [PageController::class, 'home']);
 Route::get('/Catalogs', [PageController::class, 'catalogs']);
+Route::get('/Contact', [PageController::class, 'contact']);
